@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Paisagens Naturais</title>
+</head>
+<body>
+    <header>
+    <div class="navbar">
+        <div class="container">
+            <h1>Paisagens Naturais</h1>
+            <nav>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#locais">Locais Para Visitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img src="./imagens/mountains.jpg"/>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="./imagens/nature.jpg"/>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="./imagens/peak.jpg"/>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div>
+        <div class="container">
+            <h1 id="locais">Locais Para Visitas</h1>
+            <hr>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./imagens/desert.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Dunas do Egito</h4>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore dignissimos laboriosam vero sed officia <br>
+                                quae dolorem et vel corrupti facere enim facilis, eligendi pariatur asperiores odit saepe veniam laudantium atque.
+                            </p>
+                            <a href="" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./imagens/hawaii.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Havai</h4>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore dignissimos laboriosam vero sed officia <br>
+                                quae dolorem et vel corrupti facere enim facilis, eligendi pariatur asperiores odit saepe veniam laudantium atque.
+                            </p>
+                            <a href="" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="./imagens/architecture.jpg"/>
+                        <div class="card-body">
+                            <h4 class="card-title">Alemanha</h4>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore dignissimos laboriosam vero sed officia <br>
+                                quae dolorem et vel corrupti facere enim facilis, eligendi pariatur asperiores odit saepe veniam laudantium atque.
+                            </p>
+                            <a href="" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 id="contato">Entre em Contato</h2>
+                    <form>
+                        <label class="form-label" for="nome">Seu nome:</label>
+                        <input class="form-control" type="text" id="nome"/>
+                        <label class="form-label" for="email">Seu e-mail:</label>
+                        <input class="form-control" type="email" id="email">
+                        <label class="form-label" for="mensagem">Sua mensagem:</label>
+                        <textarea class="form-control" id="mensagem"></textarea>
+                        <div class="form-check">
+                            <label class="form-check-label" for="Aceito-termos">Li e concordo com os termos do site</label>
+                            <input class="form-check-input" type="checkbox" id="Aceito-termos">
+                        </div>
+                        <button class="btn btn-success">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <p>
+                    &copy; Todos os Direitos Reservados - Paisagens Naturais 2024
+                </p>
+            </footer>
+        </div>
+    </div>
+    </header>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
